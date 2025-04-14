@@ -2,3 +2,34 @@ h1{
     background-color: blue;
     color: white;
 }
+
+body{
+    /*background-color: blueviolet;*/
+    background: url(../images/GT3.jfif);
+    background-size: cover;
+}
+
+
+/*div{
+    height: 300px;
+    max-width: auto;
+    background-color: lightblue;
+}*/
+
+
+div{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+p{
+    /*color: white;*/
+    /*color:rgb(231 233 123)*/
+    color: #FF0050;
+
+    border-width: 2px solid;
+    border-style: solid;
+    border-color: black;
+}
