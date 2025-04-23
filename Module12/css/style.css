@@ -58,3 +58,19 @@ div{
     font-style: oblique;
     font-weight: 900;
 }
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: hotpink;
+}
+
+a:active{
+    color: blueviolet;
+}
