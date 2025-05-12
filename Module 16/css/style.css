@@ -1,4 +1,4 @@
-div.gallery{
+/* div.gallery{
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
@@ -17,4 +17,51 @@ div.gallery img{
 div.desc{
     padding: 15px;
     text-align: center;
+} */
+
+.sprite{
+    background: url(../images/houses.png) no-repeat;
 }
+
+.engineers{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    /* background-position: 0 0; */
+    background-position: -500px -500px;
+}
+
+a[href="https://www.bmw.com/en/index.html"]{
+    color: blue;
+}
+
+p[class*="ds"]{
+    background-color: blue;
+    padding: 20px;
+    color: white;
+}
+
+div[id~="ds"]{
+    background-color: purple;
+    padding: 20px;
+    color: white;
+}
+
+img[title^="2"]{
+    border: 2px solid red;
+}
+
+h1[class|="heading-h1"]{
+    background-color: yellow;
+    color: white;
+    padding: 20px;
+}
+
+input[placeholder$="name"]{
+    border: 2px solid red;
+}    
+
+input[readonly]{
+    border: 2px solid green;
+}
+
