@@ -50,7 +50,7 @@
     border-color: black transparent transparent transparent;
 } */
 
-body{
+/* body{
     counter-reset: number;
 }
 
@@ -61,7 +61,24 @@ h2::before{
     border-radius: 50%;
     padding: 15px 6px;
     margin: 10px;
+} */
+
+:root{
+    --primary-color: #3498db;
+    --secondary-color: #fff;
+    --padding: 20px;
 }
 
+h1{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
+
+p{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: var(--padding);
+}
 
 
