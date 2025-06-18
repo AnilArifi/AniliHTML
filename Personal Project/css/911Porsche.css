@@ -1,4 +1,9 @@
 body{
-    justify-content: center;
-    align-items: center;
-}
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;            
+  flex-direction: column;   
+  text-align: center;
+  background-color: #006F99;
+} 
