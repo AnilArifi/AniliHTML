@@ -1,5 +1,5 @@
 body{
-    background-image: url(GT2Background.jpg);
+    background-color: whitesmoke;
 }
 
 *{
@@ -22,7 +22,7 @@ body{
 .logo a{
     font-size: 35px;
     font-weight: 600;
-    color: white;
+    color: black;
 }
 
 li{
@@ -31,7 +31,7 @@ li{
 }
 
 li a{
-    color: white; 
+    color: black; 
     font-size: 18px; 
     font-weight: bold; 
     margin-right: 25px;
@@ -39,12 +39,12 @@ li a{
 
 
 img{
-    aspect-ratio: 3/.8;
+    aspect-ratio: 3/2;
     object-fit: contain;
     margin: auto;
 }
 
-h2{
+h1{
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -53,14 +53,14 @@ h2{
 
 .logo{
     font-size: 0px;
-    margin-left: 605px;
+    margin-left: 825px;
 }
 
-.purchase-vehichle {
+.center-container {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 820px;
+      height: 100px;
     }
 
 button{
@@ -75,3 +75,5 @@ button a{
     font-weight: bold; 
     font-size: 15px;
 }
+
+

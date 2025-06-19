@@ -1,11 +1,11 @@
 body{
-  display: flex;
-  justify-content: center;  
-  align-items: center;      
-  height: 350px;            
-  flex-direction: column;   
-  text-align: center;
-  background-image: url(911Background.jpg);
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 800px;            
+    flex-direction: column;   
+    text-align: center;
+    background-color: grey;
 }
 
 *{
