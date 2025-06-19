@@ -1,0 +1,97 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  /* Nav links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+    padding-bottom: 3px;
+  }
+  
+  .nav-links a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffcc00;
+    transition: width 0.3s;
+  }
+  
+  .nav-links a:hover::after {
+    width: 100%;
+  }
+  
+  /* Hamburger icon */
+  .hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /* Hide the checkbox */
+  .menu-toggle {
+    display: none;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      background-color: #1a1a1a;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      width: 100%;
+      display: none;
+      padding: 1rem 0;
+    }
+  
+    .nav-links li {
+      text-align: center;
+      margin: 1rem 0;
+    }
+  
+    .menu-toggle:checked ~ .nav-links {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
